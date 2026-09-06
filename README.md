@@ -1,1 +1,5 @@
-
+# Auto detect text files and perform LF normalization
+* text=auto
+@ -1,2 +1,409 @@
+# Auto detect text files and perform LF normalization
+* text=auto
