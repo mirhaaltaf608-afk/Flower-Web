@@ -1,9 +1,5 @@
 # Flower Web
 Flower Shop website
-@ -1,2 +1,409 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
