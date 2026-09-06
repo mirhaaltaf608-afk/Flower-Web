@@ -1,2 +1,411 @@
 # Flower Web
 Flower Shop website
+@ -1,2 +1,409 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>complete responsive flower website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<!-- header section starts -->
+    <header class="header">
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">flower<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"> </a>
+            <a href="#" class="fas fa-shopping-cart"> </a>
+            <a href="#" class="fas fa-user"> </a>
+
+        </div>
+    </header>
+            <!--header section ends -->
+
+<!--home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh flowers</h3>
+        <span>natural& beautiful flowers</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Beatae laborum ut minus corrupti
+             dolorum dolore assumenda iste voluptate dolorem pariatur.</p>
+        <a href="#" class="button">Shop Now</a>
+    </div>
+</section>
+<!--home section ends -->
+<!--about section starts -->
+<section class="about" id="about">
+    <h1 class="heading"><span>About</span> Us </h1> 
+    <div class="row">
+        <div class="video-container">
+           <video src="img aboutvideo.mp4" loop autoplay muted></video>
+            <h3>Best Flower Sellers</h3>
+            <div class="content">
+                <h3>Why Choose Us</h3>
+                <p>
+            We bring you fresh, beautiful, and carefully selected flowers for every special moment. 
+            Our flowers are chosen for their quality, freshness, and natural beauty. 
+            We offer a variety of elegant arrangements at affordable prices, with reliable service and attention to every detail. Whether it's a birthday, wedding, anniversary, or simply a thoughtful gift, we make every occasion more special with flowers.
+
+                </p>
+                <a href="#" class="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--about section end -->
+<!--icon section starts -->
+<section class="icons-container">
+
+    <div class="icons">
+        <img src="icon1.png" alt="">
+        <div class="info">
+            <h3>10 days return</h3>
+            <span>money back guarantee</span>
+        </div>
+    </div>
+        <div class="icons">
+        <img src="icon2.png" alt="">
+        <div class="info">
+            <h3>10 days return</h3>
+            <span>money back guarantee</span>
+        </div>
+    </div>
+         <div class="icons">
+        <img src="icon3.jpg" alt="">
+        <div class="info">
+            <h3>10 days return</h3>
+            <span>money back guarantee</span>
+        </div>
+    </div>
+     <div class="icons">
+        <img src="icon4.png" alt="">
+        <div class="info">
+            <h3>10 days return</h3>
+            <span>money back guarantee</span>
+        </div>
+    </div>
+</section>
+
+
+<!--icon section end -->
+<!--products section start -->
+<!-- Product 1 -->
+<section class="products" id="products">
+
+<h1 class="heading">Latest <span>Products</span></h1>
+
+<div class="box-container"><div class="box">
+    <span class="discount">-10%</span>
+
+    <div class="image">
+        <img src="img1.jpg" alt="Flower Bouquet">
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-button">Add to Cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>Flower Bouquet</h3>
+        <div class="price">4000rs <span>4050</span></div>
+    </div>
+</div>
+  
+
+
+        <!-- Product 2 -->
+        <div class="box">
+            <span class="discount">-10%</span>
+
+            <div class="image">
+                <img src="img2.jpg" alt="Flower Bouquet">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-button">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Flower Bouquet</h3>
+                <div class="price">4000rs <span>4050</span></div>
+            </div>
+        </div>
+
+
+        <!-- Product 3 -->
+        <div class="box">
+            <span class="discount">-10%</span>
+
+            <div class="image">
+                <img src="img3.jpg" alt="Flower Bouquet">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-button">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Flower Bouquet</h3>
+                <div class="price">4000rs <span>4050</span></div>
+            </div>
+        </div>
+
+
+        <!-- Product 4 -->
+        <div class="box">
+            <span class="discount">-10%</span>
+
+            <div class="image">
+                <img src="img4.jpg" alt="Flower Bouquet">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-button">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Flower Bouquet</h3>
+                <div class="price">4000rs <span>4050</span></div>
+            </div>
+        </div>
+
+
+        <!-- Product 5 -->
+        <div class="box">
+            <span class="discount">-10%</span>
+
+            <div class="image">
+                <img src="img5.jpg" alt="Flower Bouquet">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-button">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Flower Bouquet</h3>
+                <div class="price">4000rs <span>4050</span></div>
+            </div>
+        </div>
+
+
+        <!-- Product 6 -->
+        <div class="box">
+            <span class="discount">-10%</span>
+
+            <div class="image">
+                <img src="img6.jpg" alt="Flower Bouquet">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-button">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Flower Bouquet</h3>
+                <div class="price">4000rs <span>4050</span></div>
+            </div>
+        </div>
+</div>
+</section>
+         
+<!--products section end -->
+<!--revie section start-->
+
+<section class="review" id="review">
+<h1 class="heading">Customer's <span> reviews</span></h1>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> Absolutely beautiful bouquet! The flowers were incredibly fresh, 
+        and the packaging was lovely. Highly recommend!</p>
+
+<div class="user">
+    <img src="Mirha.jpg"
+    <div class="user-info">
+<h3>Mahi</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> Sent this bouquet as a gift, and the recipient was absolutely thrilled
+         They sent me a picture, and the flowers looked so fresh and
+         vibrant. Thank you for making their day special!</p>
+
+<div class="user">
+    <img src="Mirha5.jpg"
+    <div class="user-info">
+<h3>Maira</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> Honestly exceeded my expectations. Sometimes online flowers don't 
+        look like the photos, but these were vibrant, healthy, 
+        and beautifully put together. Worth every penny</p>
+
+<div class="user">
+    <img src="girl.jpg"
+    <div class="user-info">
+<h3>Rania</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> Stunning arrangement! The attention to detail in the styling and
+         the unique choice of flowers really set this bouquet apart.
+         It looks extremely elegant and expensive. Perfect centerpiece!</p>
+
+<div class="user">
+    <img src="Mirha3.jpg"
+    <div class="user-info">
+<h3>Rahim</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> Excellent service and gorgeous flowers! The bouquet arrived right
+         on time and in perfect condition. Great quality and highly 
+         professional.Will definitely order again!</p>
+
+<div class="user">
+    <img src="Mirha2.jpg"
+    <div class="user-info">
+<h3>Ahmed Ali</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+<div class="box-container">
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <p> "Wonderful experience! The flowers are fresh, fragrant, 
+        and arranged beautifully. The presentation looks very premium, 
+        exactly like the pictures. Thank you so much!</p>
+
+<div class="user">
+    <img src="Mirha6.jpg"
+    <div class="user-info">
+<h3>Ahmer</h3>
+<span>Happy Customer</span>
+ </div>
+<span class="fas fa-quote-right"></span>
+</div>
+</div>
+</section>
+
+<!--review section end-->
+<!-- footer section starts -->
+
+<footer class="footer"><div class="box-container">
+<div class="box">
+    <h3>quick links</h3>
+
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#products">products</a>
+    <a href="#review">review</a>
+</div>
+<div class="box">
+    <h3>extra links</h3>
+
+    <a href="#">my account</a>
+    <a href="#">my order</a>
+    <a href="#">my favorite</a>
+</div>
+<div class="box">
+    <h3>contact info</h3>
+
+    <a href="#">+123 456 789</a>
+    <a href="#" class="email">floralfusion76@gmail.com</a>
+    <a href="#">Lahore, Pakistan</a>
+</div>
+<div class="box"> <h3>Follow Us</h3> <a href="#">
+    <i class="fab fa-facebook-f"></i> Facebook</a> <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+     <a href="#"><i class="fab fa-twitter"></i> Twitter</a> 
+    <a href="#"><i class="fab fa-pinterest"></i> Pinterest</a> </div>
+<div class="credit">
+    created by <span>Floral Fusion</span> | all rights reserved
+</div>
+</div> <!-- box-container close -->
+</footer>
+
+<!-- footer section ends -->
+
+</body>
+</html>
